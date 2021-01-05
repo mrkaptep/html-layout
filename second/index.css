@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.box-one {
+    border:  2px black solid;
+    width: 100%;
+    height: 200px;
+}
+.purple {
+    background-color: purple;
+    margin-top: 15px;
+    width: 50px;
+    height: 90px;
+    display: inline-block;
+}
+.green {
+    background-color: green;
+    margin-top: 10px;
+    width: 250px;
+    height: 125px;
+    display: inline-block;
+}
+.blue {
+    background-color: rgb(80, 192, 230);
+   margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.box-two {
+    background-color: white;
+    border: 2px black dotted;
+    width: 100%;
+    height: 250px;
+    margin: 10px;
+}
