@@ -7,25 +7,25 @@ body {
 .box-one {
     border:  2px black solid;
     width: 100%;
-    height: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
 }
 .purple {
     background-color: purple;
-    margin-top: 15px;
-    width: 50px;
-    height: 90px;
+    width: 40px;
+    height: 100px;
     display: inline-block;
 }
 .green {
     background-color: green;
-    margin-top: 10px;
-    width: 250px;
-    height: 125px;
+    width: 320px;
+    height: 150px;
     display: inline-block;
+    margin: 0 40px;
 }
 .blue {
     background-color: rgb(80, 192, 230);
-   margin: 10px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -35,6 +35,30 @@ body {
     background-color: white;
     border: 2px black dotted;
     width: 100%;
-    height: 250px;
-    margin: 10px;
+    margin: 20px 5px 5px 5px;
+    padding: 20px;
+    box-sizing: border-box;
 }
+.yellow {
+    background-color: rgba(226, 226, 112, 0.911);
+    width: 100%;
+    height: 150px;
+    box-shadow: black 0 10px 15px 0;
+    display: inline-block;
+}
+.box-three {
+    border: 1px lightgray solid; 
+    box-shadow: black 0 5px 5px 0;
+    padding: 100px 150px;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+.box-three h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    color: rgb(93, 93, 192);
+    letter-spacing: 10px;
+    word-wrap: normal;
